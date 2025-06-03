@@ -5,30 +5,31 @@ import './ItemListContainer.css';
 
 const products = [
   {
-    title: 'Seal',
-    image: 'https://images.unsplash.com/photo-1591485423007-765bde4139ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Pinnipeds, commonly known as seals,[a] are a widely distributed and diverse clade of carnivorous, fin-footed, semiaquatic marine mammals...'
+    title: 'Aegis',
+    image: '/images/Carta01.png', // Solo la ruta de la imagen
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  }, 
+  {
+    title: 'Alena',
+    image: '/images/Carta02.png', // Solo la ruta de la imagen
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
   {
-    title: 'Product 2',
-    image: 'https://via.placeholder.com/250x350?text=Producto+2',
-    description: 'Descripción del producto 2.'
+    title: 'Alesha',
+    image: '/images/Carta03.png', // Solo la ruta de la imagen
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
   {
-    title: 'Product 3',
-    image: 'https://via.placeholder.com/250x350?text=Producto+3',
-    description: 'Descripción del producto 3.'
+    title: 'Arashin',
+    image: '/images/Carta04.png', // Solo la ruta de la imagen
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   },
   {
-    title: 'Product 4',
-    image: 'https://via.placeholder.com/250x350?text=Producto+4',
-    description: 'Descripción del producto 4.'
-  },
-  {
-    title: 'Product 5',
-    image: 'https://via.placeholder.com/250x350?text=Producto+5',
-    description: 'Descripción del producto 5.'
-  },
+    title: 'Archfiend of Depravity',
+    image: '/images/Carta05.png', // Solo la ruta de la imagen
+    description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  }
+ 
 ];
 
 const ItemListContainer = ({ greeting }) => {
